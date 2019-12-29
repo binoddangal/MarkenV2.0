@@ -1,0 +1,116 @@
+/* global CSS here */
+*{
+  margin: 0;
+  padding: 0;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+span{
+  line-height: 40px;
+}
+
+/*marksheet size   */
+.marksheet-container{
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+/* header section style here */
+.header-container{
+  width: 100%;
+
+}
+
+.schoolDetail-wrapper{
+
+}
+.schoolName-wrapper{
+    text-align: center;
+}
+.schoolLogo-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo-wrapper{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.term-wrapper{
+  width: 100%;
+  text-align: center;
+}
+
+/* student detail section here */
+.studentDetail-wrapper{
+  width: 100%;
+  overflow: auto;
+  padding: 20px;
+}
+.studentInfo{
+  width: 50%;
+}
+.table-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+table{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 20px;
+  text-align: center;
+  border-collapse: collapse;
+}
+th{
+  height: 50px;
+}
+td{
+  height: 30px;
+}
+th,td{
+  border: 1px solid black;
+}
+
+/* student grade here */
+.footer-container{
+  overflow: auto;
+  width: 100%;
+}
+.studentGrade-detail{
+  width: 70%;
+  padding: 20px;
+}
+.studentGrade-container{
+  overflow: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+.grade-detail{
+  margin-right: 20px;
+  width: 20%;
+  border: 1px solid black;
+}
+.gradeDisplay{
+  border: 1px solid black;
+  padding: 2px 10px;
+}
+.attendance-container{
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 30px;
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+}
